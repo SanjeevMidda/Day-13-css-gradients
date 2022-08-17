@@ -1,0 +1,50 @@
+* {
+    margin:0px;
+    font-family: Helvetica, sans-serif;
+}
+
+.gradient {
+    background: linear-gradient(pink, blue);
+    width:600px;
+    height:600px;
+    border-radius: 50%;
+}
+
+.gradient-shape {
+    margin: 0 auto;
+    width: 600px;
+    position: relative;
+    top: 110px;
+}
+
+h1 {
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: black;
+}
+
+.nav-bar div {
+    display: inline-block;
+}
+
+/* .nav-bar, .nav-bar div {
+    border:1px solid black;
+} */
+
+.one {
+    margin-left: 40px;
+}
+.two {
+    margin-left: 455px;
+}
+.three {
+    margin-left: 485px;
+    color: blue;
+}
+
+.one, .two, .three {
+    font-size: 20px;
+    margin-top: 40px;
+}
